@@ -30,9 +30,9 @@ struct ContentView: View {
                                     Text("Handbook")
                                         .fontWeight(.medium)
                                         .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
-                                        .navigationBarTitleDisplayMode(.inline)
+                        .navigationBarTitleDisplayMode(.inline)
                                 }
-                                NavigationLink(destination: Handbook()) {
+                                NavigationLink(destination: Map()) {
                                     Image(systemName:"leaf.fill")
                                         .foregroundColor(Color.green)
                                     Text("Map")
@@ -40,7 +40,7 @@ struct ContentView: View {
                                         .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
                                     
                                 }
-                                NavigationLink(destination: Handbook()) {
+                                NavigationLink(destination: Games()) {
                                     Image(systemName:"leaf.fill")
                                         .foregroundColor(Color.green)
                                     Text("Games")
